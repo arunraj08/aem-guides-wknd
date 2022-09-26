@@ -52,7 +52,6 @@ For **AEM 6.5.x**:
 $ cd aem-guides-wknd/
 $ mvn clean install -PautoInstallSinglePackage -Pclassic
 ```
-
 ## System Requirements
 
 WKND Version | AEM as a Cloud Service | AEM 6.5   | Java SE | Maven
