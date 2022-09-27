@@ -87,7 +87,7 @@ public class ImageListImpl implements ImageList {
     @ScriptVariable
     protected ComponentContext componentContext;
 
-    /**
+    /*
      * The Image List Component extends the AEM WCM Core Component.
      * This injection creates an instance of the Core Components List component, and allows its methods to be called by
      * the WKND Image List component, following the delegation pattern.
@@ -209,7 +209,7 @@ public class ImageListImpl implements ImageList {
         }
     }
 
-    /**
+    /*
      * Helper method that searches an AEM Page for 1 or more resources that are of a specified sling:resourceType.
      *
      * Note the order is by JCR Path, ascending.
@@ -265,7 +265,7 @@ public class ImageListImpl implements ImageList {
         return componentResources;
     }
 
-    /**
+    /*
      * ResourceWrapper which is used to include an Image Component content resource, and ensure it's authored configuration does not conflict with the desired renditioning for the Image List component.
      * The Image List component should ONLY display the image without captions, titles, etc.
      *
