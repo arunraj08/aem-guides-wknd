@@ -468,7 +468,6 @@
                     altValueFromDAM="true"
                     disableLazyLoading="false"
                     displayPopupTitle="true"
-                    enableAssetDelivery="true"
                     isDecorative="false"
                     jpegQuality="{Long}60"
                     titleValueFromDAM="true"
@@ -1063,6 +1062,7 @@
                     jcr:title="WKND Site Theme"
                     sling:resourceType="wcm/core/components/policy/policy"
                     clientlibs="[wknd.site,wknd.base]"
+                    clientlibsAsync="true"
                     clientlibsJsHead="wknd.dependencies">
                     <jcr:content
                         cq:lastReplicated="{Date}2019-10-22T13:34:50.533-07:00"
@@ -1079,7 +1079,8 @@
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Experience Fragment Web"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    clientlibs="[wknd.site,wknd.base]">
+                    clientlibs="[wknd.site,wknd.base]"
+                    clientlibsAsync="true">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy_1572461714642>
             </xfpage>
@@ -1108,6 +1109,42 @@
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy_1594238204926>
             </tabs>
+            <stockplex jcr:primaryType="nt:unstructured">
+                <policy_1664546175307
+                    jcr:description="Stockplex Component Policy"
+                    jcr:lastModified="{Date}2022-09-30T06:58:23.295-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Stockplex Component Policy"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    showStockInfo="true">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                    <cq:styleGroups jcr:primaryType="nt:unstructured">
+                        <item0
+                            cq:styleGroupLabel="Font Types"
+                            cq:styleGroupMultiple="true"
+                            jcr:primaryType="nt:unstructured">
+                            <cq:styles jcr:primaryType="nt:unstructured">
+                                <item0
+                                    cq:styleClasses="cmp-stockplex--italic"
+                                    cq:styleId="1664546250992"
+                                    cq:styleLabel="Italic"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item1
+                                    cq:styleClasses="cmp-stockplex--bold"
+                                    cq:styleId="1664546269878"
+                                    cq:styleLabel="Bold"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item2
+                                    cq:styleClasses="cmp-stockplex--uppercase"
+                                    cq:styleId="1664546270585"
+                                    cq:styleLabel="Uppercase"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </cq:styles>
+                        </item0>
+                    </cq:styleGroups>
+                </policy_1664546175307>
+            </stockplex>
         </components>
     </wknd>
     <cq jcr:primaryType="nt:unstructured">

@@ -33,6 +33,7 @@
                                                 sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
                                                 fieldDescription="Enter a 4 character stock symbol"
                                                 fieldLabel="Stock Symbol"
+                                                validation="wknd-stockplex-symbol-validation"
                                                 name="./symbol"/>
                                             <summary
                                                 jcr:primaryType="nt:unstructured"

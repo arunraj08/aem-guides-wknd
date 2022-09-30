@@ -1,2 +1,2 @@
+#js/input-validation.js
 js/validation.js
-js/inputvalidation.js

@@ -7,7 +7,7 @@
     var registry = $(window).adaptTo("foundation-registry");
 
     registry.register("foundation.validation.validator", {
-        selector: "[data-validation=geeks-firstname-validation]",
+        selector: "[data-validation=wknd-stockplex-symbol-validation]",
         validate: function(element) {
             let el = $(element);
             let pattern=/[0-9a-z]/;

@@ -1,3 +1,17 @@
 {
-  "&amp;copy; {0} WKND Site Site. All rights reserved." : "&amp;copy; {0} WKND Site Site. Tous droits réservés."
+  "&amp;copy; {0} WKND Site Site. All rights reserved." : "&amp;copy; {0} WKND Site Site. Tous droits réservés.",
+  "Summary:": "Sommaire:",
+  "Current Value:": "Valeur courante:",
+  "Headless JSON View": "Vue JSON sans tête",
+  "52 Week Low": "Min. année écoulée",
+  "52 Week High": "Max. année écoulée",
+  "Sector": "Secteur",
+  "Company": "Société",
+  "Volume": "Volume",
+  "Range Low": "Fourchette basse",
+  "Range High": "Fourchette haute",
+  "Open Price": "Prix d'ouverture",
+  "Up/Down": "Haut/Bas",
+  "Request Time": "Heure de demande",
+  "Request Date": "Date de demande"
 }
